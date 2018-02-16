@@ -1,6 +1,6 @@
 # string builder #
 
-It's a simple, dump, lightweight string builder implementation for those who have to work with C-style strings and won't to link fat libraries.
+It's a simple, dumb, lightweight string builder implementation for those who have to work with C-style strings and won't link fat libraries.
 
 ### Versions ###
 
