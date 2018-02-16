@@ -10,7 +10,7 @@
      See https://bitbucket.org/steinkrauz/string_builder for the latest version
 */
 
-#include "string_builder_c.h"
+#include "string_builder.h"
 
 void add_bucket(string_builder_p sb, unsigned size)
 {
