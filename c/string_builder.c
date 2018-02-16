@@ -1,3 +1,15 @@
+/*
+     * This program is free software. It comes without any warranty, to
+     * the extent permitted by applicable law. You can redistribute it
+     * and/or modify it under the terms of the Do What The Fuck You Want
+     * To Public License, Version 2, as published by Sam Hocevar. See
+     * http://www.wtfpl.net/ for more details. 
+
+     Copyright © 2017 Stein Krauz <steinkrauz@yahoo.com>
+
+     See https://bitbucket.org/steinkrauz/string_builder for the latest version
+*/
+
 #include "string_builder_c.h"
 
 void add_bucket(string_builder_p sb, unsigned size)
