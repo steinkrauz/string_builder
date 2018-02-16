@@ -14,7 +14,10 @@
 void string_builder::add_bucket(unsigned size)
 {
 	bucket_p new_bucket = new bucket_s;
-	new_bucket->data = new char[size];
+	if (size>add_size)
+		new_bucket->data = new char[size];
+	else
+		new_bucket->data = new char[add_size];
 	memset(new_bucket->data, 0, size);
 	new_bucket->pos = 0;
 	new_bucket->next = NULL;
